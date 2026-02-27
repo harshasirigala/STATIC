@@ -14,7 +14,7 @@ jobs:
           aws-region: us-east-1
       - name: s3 code static
         run: |
-          aws s3 sync ./ s3://sirigala-demo-gha/ \
+          aws s3 sync ./ s3://gha-bucket1/ \
           --exclude "*" \
           --include "index.html"
           --include "index.css"
