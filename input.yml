@@ -1,5 +1,5 @@
 name: inputs 
-on: 
+on: workflow_dispatch
   inputs:
     environment:
       description: choose env
